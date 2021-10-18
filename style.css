@@ -100,7 +100,7 @@ img {
 }
 
 .information {
-    padding: 16px;
+    padding: 50px;
     display: flex;
     justify-content: center;
     font-size: 36px;
@@ -109,9 +109,54 @@ img {
 
 .illustrations-row {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.square {
+    background: #f9faf8;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    outline: 5px solid #3882f6;
     
+}
+
+.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 300px 50px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.signature {
+    color: #1f2937;
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    align-self: flex-end;
 }
